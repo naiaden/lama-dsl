@@ -146,6 +146,58 @@
 # all 1.5 0.662
 # all 2.5 0.656
 
+
+# Model:    
+#         mnb_pos
+# Accuracy: 
+#         0.69
+# [[168  82]
+#  [ 73 177]]
+#
+# 100 0 0.51
+# 100 0.001 0.51
+# 100 0.05 0.51
+# 100 0.5 0.51
+# 100 1.0 0.51
+# 100 1.5 0.508
+# 100 2.5 0.508
+# 1000 0 0.56
+# 1000 0.001 0.56
+# 1000 0.05 0.562
+# 1000 0.5 0.56
+# 1000 1.0 0.56
+# 1000 1.5 0.556
+# 1000 2.5 0.554
+# 10000 0 0.602
+# 10000 0.001 0.602
+# 10000 0.05 0.604
+# 10000 0.5 0.6
+# 10000 1.0 0.6
+# 10000 1.5 0.594
+# 10000 2.5 0.582
+# 100000 0 0.608
+# 100000 0.001 0.606
+# 100000 0.05 0.606
+# 100000 0.5 0.592
+# 100000 1.0 0.58
+# 100000 1.5 0.584
+# 100000 2.5 0.576
+# 1000000 0 0.684
+# 1000000 0.001 0.678
+# 1000000 0.05 0.668
+# 1000000 0.5 0.65
+# 1000000 1.0 0.626
+# 1000000 1.5 0.614
+# 1000000 2.5 0.602
+# all 0 0.688
+# all 0.001 0.69
+# all 0.05 0.686
+# all 0.5 0.678
+# all 1.0 0.672
+# all 1.5 0.668
+# all 2.5 0.66
+
+
 # Model:    
 #         sgd_sc
 # Accuracy: 
@@ -225,4 +277,126 @@
 # all None 0.0001 4.0 0.574
 # all None 1e-05 4.0 0.658
 # all None 1e-06 4.0 0.628
+
+
+# Model:    
+#         sgd_st
+# Accuracy: 
+#         0.686
+# [[171  79]
+#  [ 78 172]]
+#
+# 100 StandardScaler(copy=True, with_mean=False, with_std=True) 0.1 4.0 0.5
+# 100 StandardScaler(copy=True, with_mean=False, with_std=True) 0.01 4.0 0.5
+# 100 StandardScaler(copy=True, with_mean=False, with_std=True) 0.001 4.0 0.5
+# 100 StandardScaler(copy=True, with_mean=False, with_std=True) 0.0001 4.0 0.5
+# 100 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-05 4.0 0.5
+# 100 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-06 4.0 0.5
+# 100 None 0.1 4.0 0.5
+# 100 None 0.01 4.0 0.5
+# 100 None 0.001 4.0 0.5
+# 100 None 0.0001 4.0 0.57
+# 100 None 1e-05 4.0 0.576
+# 100 None 1e-06 4.0 0.566
+# 1000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.1 4.0 0.51
+# 1000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.01 4.0 0.512
+# 1000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.001 4.0 0.508
+# 1000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.0001 4.0 0.51
+# 1000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-05 4.0 0.512
+# 1000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-06 4.0 0.51
+# 1000 None 0.1 4.0 0.5
+# 1000 None 0.01 4.0 0.5
+# 1000 None 0.001 4.0 0.5
+# 1000 None 0.0001 4.0 0.572
+# 1000 None 1e-05 4.0 0.59
+# 1000 None 1e-06 4.0 0.582
+# 10000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.1 4.0 0.596
+# 10000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.01 4.0 0.608
+# 10000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.001 4.0 0.608
+# 10000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.0001 4.0 0.594
+# 10000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-05 4.0 0.59
+# 10000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-06 4.0 0.542
+# 10000 None 0.1 4.0 0.5
+# 10000 None 0.01 4.0 0.5
+# 10000 None 0.001 4.0 0.544
+# 10000 None 0.0001 4.0 0.582
+# 10000 None 1e-05 4.0 0.604
+# 10000 None 1e-06 4.0 0.616
+# 100000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.1 4.0 0.62
+# 100000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.01 4.0 0.624
+# 100000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.001 4.0 0.604
+# 100000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.0001 4.0 0.614
+# 100000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-05 4.0 0.606
+# 100000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-06 4.0 0.594
+# 100000 None 0.1 4.0 0.5
+# 100000 None 0.01 4.0 0.544
+# 100000 None 0.001 4.0 0.562
+# 100000 None 0.0001 4.0 0.576
+# 100000 None 1e-05 4.0 0.626
+# 100000 None 1e-06 4.0 0.634
+# 1000000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.1 4.0 0.654
+# 1000000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.01 4.0 0.674
+# 1000000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.001 4.0 0.652
+# 1000000 StandardScaler(copy=True, with_mean=False, with_std=True) 0.0001 4.0 0.648
+# 1000000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-05 4.0 0.652
+# 1000000 StandardScaler(copy=True, with_mean=False, with_std=True) 1e-06 4.0 0.66
+# 1000000 None 0.1 4.0 0.5
+# 1000000 None 0.01 4.0 0.5
+# 1000000 None 0.001 4.0 0.558
+# 1000000 None 0.0001 4.0 0.578
+# 1000000 None 1e-05 4.0 0.626
+# 1000000 None 1e-06 4.0 0.682
+# all StandardScaler(copy=True, with_mean=False, with_std=True) 0.1 4.0 0.668
+# all StandardScaler(copy=True, with_mean=False, with_std=True) 0.01 4.0 0.646
+# all StandardScaler(copy=True, with_mean=False, with_std=True) 0.001 4.0 0.668
+# all StandardScaler(copy=True, with_mean=False, with_std=True) 0.0001 4.0 0.686
+# all StandardScaler(copy=True, with_mean=False, with_std=True) 1e-05 4.0 0.668
+# all StandardScaler(copy=True, with_mean=False, with_std=True) 1e-06 4.0 0.672
+# all None 0.1 4.0 0.5
+# all None 0.01 4.0 0.488
+# all None 0.001 4.0 0.55
+# all None 0.0001 4.0 0.59
+# all None 1e-05 4.0 0.66
+# all None 1e-06 4.0 0.674
+
+
+# Model:    
+#         fat1
+# Accuracy: 
+#         0.706
+# [[180  70]
+#  [ 77 173]]
+#
+# fat1 100 0.692
+# fat1 175 0.706
+# fat1 250 0.684
+# fat1 325 0.694
+# fat1 500 0.688
+
+# Model:    
+#         mkn_lm
+# Accuracy: 
+#         0.704
+# Confusion matrix, without normalization
+# [[176  74]
+#  [ 74 176]]
+#
+# mkn_lm 2 0.68
+# mkn_lm 3 0.704
+# mkn_lm 4 0.692
+# mkn_lm 5 0.698
+# mkn_lm 6 0.696
+
+# Model:    
+#         mkn_lm2
+# Accuracy: 
+#         0.658
+# [[156  94]
+#  [ 77 173]]
+#
+# mkn_lm2 2 0.624
+# mkn_lm2 3 0.658
+# mkn_lm2 4 0.626
+# mkn_lm2 5 0.626
+# mkn_lm2 6 0.602
 
